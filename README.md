@@ -18,15 +18,13 @@ Benford's Law predicts the frequency distribution of leading digits in many real
 The project is organized into modular components:
 
 *   `main.py`: The entry point that manages the command-line interface and the main application loop.
-*   `benfordsLaw.py`: Contains the mathematical logic for digit extraction and Benford's Law validation.
-*   `loadDataset.py`: Handles file I/O, error checking, and column selection logic.
-*   `plot.py`: Manages data visualization using `matplotlib` in a separate process.
+*   `src/benfordsLaw.py`: Contains the mathematical logic for digit extraction and Benford's Law validation.
+*   `src/loadDataset.py`: Handles file I/O, error checking, and column selection logic.
+*   `src/plot.py`: Manages data visualization using `matplotlib` in a separate process.
 *   **`Datasets/`**: Example datasets provided for testing, including:
     *   `API_NY.GDP.MKTP.CD_DS2_en_csv_v2_126992.csv` (World Bank GDP data)
     *   `Global Temperature.csv`
-    *   `GlobalLandTemperaturesByCity.csv`
     *   `pib_per_capita_countries_dataset.csv`
-    *   `PS_20174392719_1491204439457_log.csv` (Transaction logs)
 
 ---
 
