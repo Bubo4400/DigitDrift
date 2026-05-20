@@ -21,7 +21,7 @@ A Python-based utility for analyzing numerical datasets to determine if they adh
 
 ### Clone & Setup
 ```bash
-git clone https://github.com/yourusername/DigitDrift.git
+git clone https://github.com/Bubo4400/DigitDrift.git
 cd DigitDrift
 ```
 
