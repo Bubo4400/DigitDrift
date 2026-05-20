@@ -1,6 +1,4 @@
-import benfordsLaw
-import loadDataset
-import plot
+from src import benfordsLaw, loadDataset, plot
 import math
 import sys
 import os
