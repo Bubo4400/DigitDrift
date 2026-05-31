@@ -23,8 +23,8 @@ def getDatasetInfo(df) -> list:
         clearScreen()
         return getDatasetInfo(df)
 
-    zeroIn = input("Ignore numbers between 0 and 1 (if not take the first non 0 digit)[Y/n]:
+    zeroIn = input("Ignore numbers between 0 and 1 (if not take the first non 0 digit)[Y/n]:")
     zero = True
-    if zeroIn == n or zeroIn == N:
+    if zeroIn == "n" or zeroIn == "N":
         zero = False
     return df[colNames[int(col)]].tolist(), colNames[int(col)], zero
